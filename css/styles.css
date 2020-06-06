@@ -1,0 +1,55 @@
+.mt-1,
+.pure-form .mt-1 {
+    margin-top: 1em;
+}
+
+.mr-1 {
+    margin-right: 1em;
+}
+
+.flex {
+    display: flex;
+}
+
+/* Copy this @keyframes block to your CSS*/
+@keyframes countdownAnimation {
+    0.0% {
+        background: black;
+    }
+
+    100% {
+        background: red;
+        opacity: 1;
+    }
+
+
+    69.8% {
+        background: red;
+        opacity: 0.5;
+    }
+
+    74.9% {
+        background: red;
+        opacity: 1;
+    }
+
+    80.3% {
+        background: red;
+        opacity: 0.5;
+    }
+
+    84.7% {
+        background: red;
+        opacity: 1;
+    }
+
+    89.3% {
+        background: red;
+        opacity: 0.5;
+    }
+}
+
+/* Add the animation: property to whichever element you want to animate */
+.countdown-danger {
+    animation: countdownAnimation 5s ease 0s 1 normal forwards;
+}
